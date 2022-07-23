@@ -63,9 +63,9 @@ public class SignupController {
 
     }
 
-    @GetMapping("/signup")
-    public List<Signup> findAll(){
-        logger.info("get/signup");
-        return signupService.findAll();
-    }
+    // @GetMapping("/signup")
+    // public List<Signup> findAll(){
+    //     logger.info("get/signup");
+    //     return signupService.findAll();
+    // }
 }
