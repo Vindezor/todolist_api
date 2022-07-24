@@ -2,13 +2,9 @@ package com.example.todolist1.Service;
 
 import com.example.todolist1.Model.Signup;
 import com.example.todolist1.Repository.SignupRepository;
-import lombok.RequiredArgsConstructor;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class SignupService {

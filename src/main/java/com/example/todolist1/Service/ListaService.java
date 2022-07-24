@@ -1,9 +1,7 @@
 package com.example.todolist1.Service;
 
-import com.example.todolist1.Model.Lista;
 import com.example.todolist1.Model.UserLista;
 import com.example.todolist1.Repository.ListaRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
